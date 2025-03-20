@@ -13,7 +13,10 @@ int main(){
         }
     }
 
+    varL = 0;
+
     for(i=0; i<m; i++){
+        l = 0;
         for(j=0; j<n; j++){
             if(Matriz[i][j]==0){
                 l+=1;
@@ -24,7 +27,10 @@ int main(){
         }
     }
 
+    varC = 0;
+
     for(j=0; j<m; j++){
+        c = 0;
         for(i=0; i<n; i++){
             if(Matriz[j][i]==0){
                 c+=1;
